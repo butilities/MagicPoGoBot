@@ -622,11 +622,11 @@
     },
     {
       "Key": "firstStartSetupDefaultLatLongPrompt",
-      "Value": "Please enter a Latitude and Longitude (Right click to paste) - Format: Value, Value"
+      "Value": "Silahkan masukan nilai lintang dan bujue (klik kanan untuk paste) - Format: Value, Value"
     },
     {
       "Key": "firstStartSetupDefaultLatLongConfirm",
-      "Value": "Lattitude and Longitude accepted: {0}"
+      "Value": "koordinat Lintang dan bujur diterima: {0}"
     },
     {
       "Key": "softBanBypassed",
@@ -694,11 +694,11 @@
     },
     {
       "Key": "HumanWalkingVariant",
-      "Value": "Walking Speed: Has been changed, {0:n2} Km/h to {1:n2} Km/h"
+      "Value": "Kecepatan berjalan berubah, dari {0:n2} Km/h ke {1:n2} Km/h"
     },
     {
       "Key": "AccountBanned",
-      "Value": "Probably Permanent Ban!"
+      "Value": "Kemungkinan akun anda terkena BAN PERMANEN!"
     }
   ],
 	"PokemonStrings": [
