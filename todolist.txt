@@ -1,1 +1,2 @@
 1) Randomize time between actions and time between pokemon catches
+2) Add the ability to keep custom amounts of specific pokeballs (I believe the user wants bot to seem more humanlike)
