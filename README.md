@@ -1,7 +1,7 @@
 
 ## This repository is a fork updated of [NecroBot] (https://github.com/NECROBOTIO/NecroBot).
 
-##This fork was made because there are many forks going around made by non developers and people without github experience and they are dying within the day.
+##This fork was made because there are many forks going around made by non developers and people without github experience and they are dying within the day. They are also not addressing issues or request, here what we are trying to do is keep the ball rolling and add features more frequently
 
 <h2><a name="getting-started">Getting Started</a></h2>
 Make sure you check out our [Wiki](https://github.com/plgonzalezrx8/MagicPoGoBot/wiki) to get started.
@@ -10,11 +10,11 @@ Make sure you check out our [Wiki](https://github.com/plgonzalezrx8/MagicPoGoBot
 
 <h2><a name="features">Features</a></h2>
 
- - [PTC Login / Google]
+ - [PTC/Google Login]
  - [Get Map Objects and Inventory]
- - [Search for gyms/pokestops/spawns]
+ - [Search for pokestops/spawns]
  - [Farm pokestops]
- - [Farm all Pokemon in neighbourhood]
+ - [Farm all Pokemon in neighborhood]
  - [Throw Berries/use best pokeball]
  - [Transfers duplicate pokemons]
  - [Evolve all pokemons]
