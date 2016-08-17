@@ -293,7 +293,7 @@ namespace PoGo.NecroBot.Logic
         public double DefaultLatitude = 40.785092;
         public double DefaultLongitude = -73.968286;
         public double WalkingSpeedInKilometerPerHour = 4.16;
-        public double RandomMinWalkingSpeede = 1.2;
+        public double RandomMinWalkingSpeed = 1.2;
         public double RandomMaxWalkingSpeed = 1.2;
         public bool UseWalkingSpeedVariant = true;
         public bool ShowVariantWalking = true;
@@ -1295,6 +1295,8 @@ namespace PoGo.NecroBot.Logic
         public float UpgradePokemonCpMinimum => _settings.PokemonSettings.UpgradePokemonCpMinimum;
         public string UpgradePokemonMinimumStatsOperator => _settings.PokemonSettings.UpgradePokemonMinimumStatsOperator;
         public double WalkingSpeedInKilometerPerHour => _settings.LocationSettings.WalkingSpeedInKilometerPerHour;
+        public double RandomMinWalkingSpeed => _settings.LocationSettings.RandomMinWalkingSpeed;
+        public double RandomMaxWalkingSpeed => _settings.LocationSettings.RandomMaxWalkingSpeed;
         public bool UseWalkingSpeedVariant => _settings.LocationSettings.UseWalkingSpeedVariant;
         public bool ShowVariantWalking => _settings.LocationSettings.ShowVariantWalking;
         public bool FastSoftBanBypass => _settings.SoftBanSettings.FastSoftBanBypass;

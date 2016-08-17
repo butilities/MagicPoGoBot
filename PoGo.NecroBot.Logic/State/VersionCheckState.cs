@@ -23,13 +23,13 @@ namespace PoGo.NecroBot.Logic.State
     public class VersionCheckState : IState
     {
         public const string VersionUri =
-            "https://rawgit.com/NoxxDev/NecroBot/master/PoGo.NecroBot.Logic/Properties/AssemblyInfo.cs";
+            "https://rawgit.com/plgonzalezrx8/MagicPoGoBot/master/PoGo.NecroBot.Logic/Properties/AssemblyInfo.cs";
 
         public const string LatestReleaseApi =
-            "https://api.github.com/repos/NoxxDev/NecroBot/releases/latest";
+            "https://api.github.com/repos/plgonzalezrx8/MagicPoGoBot/releases/latest";
 
         private const string LatestRelease =
-            "https://github.com/NoxxDev/NecroBot/releases";
+            "https://github.com/plgonzalezrx8/MagicPoGoBot/releases";
 
         public static Version RemoteVersion;
 
@@ -88,7 +88,7 @@ namespace PoGo.NecroBot.Logic.State
                 Message = session.Translation.GetTranslation(TranslationString.DownloadingUpdate)
             });
             var remoteReleaseUrl =
-                $"https://github.com/NoxxDev/NecroBot/releases/download/v{RemoteVersion}/";
+                $"https://github.com/plgonzalezrx8/MagicPoGoBot/releases/download/v{RemoteVersion}/";
             const string zipName = "Release.zip";
             var downloadLink = remoteReleaseUrl + zipName;
             var baseDir = Directory.GetCurrentDirectory();
