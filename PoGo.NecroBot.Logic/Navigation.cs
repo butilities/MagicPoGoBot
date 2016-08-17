@@ -228,8 +228,8 @@ namespace PoGo.NecroBot.Logic
                 {
                     if (millisecondsUntilVariant >= SpeedVariantSec)
                     {
-                        var randomMin = session.LogicSettings.WalkingSpeedInKilometerPerHour - 1.2;
-                        var randomMax = session.LogicSettings.WalkingSpeedInKilometerPerHour + 1.2;
+                        var randomMin = session.LogicSettings.WalkingSpeedInKilometerPerHour - 3.2;
+                        var randomMax = session.LogicSettings.WalkingSpeedInKilometerPerHour + 3.2;
                         var RandomWalkSpeed = rw.NextDouble() * (randomMax - randomMin) + randomMin;
 
                         session.EventDispatcher.Send(new HumanWalkingEvent
