@@ -262,11 +262,11 @@
     },
     {
       "Key": "realisticTravelDetected",
-      "Value": "Detectado viaje realista, utilizando UserSettings.settings"
+      "Value": "Detectado viaje realistico, utilizando UserSettings.settings"
     },
     {
       "Key": "notRealisticTravel",
-      "Value": "Viaje no realista en {0}, utilizando el último LastPos.ini memorizado"
+      "Value": "Viaje no realistico en {0}, utilizando ultima posicion guardada en LastPos.ini"
     },
     {
       "Key": "coordinatesAreInvalid",
