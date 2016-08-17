@@ -38,15 +38,14 @@ Make sure you check out our [Wiki](https://github.com/NoxxDev/NecroBot/wiki) to 
  - [Transfers duplicate pokemons]
  - [Evolve all pokemons]
  - [Throws away unneeded items]
- - [Humanlike Walking]
+ - [Humanlike Walking with dynamic speed]
  - [Configurable Custom Pathing]
- - [Softban bypass]
  - [AutoUpdate / VersionCheck]
  - [Multilanguage Support]
  - [Use lucky egg while evolve]
  - [Egg Hatching Automatically]
- - [Multi bot support]
- - [Snipe pokemon]
+ - [Multi bot support] (NOT RECOMMENDED)
+ - [Snipe pokemon] (NOT RECOMMENDED)
  - [Power-Up pokemon]
  - [Telegram Remote Control Support]
 
